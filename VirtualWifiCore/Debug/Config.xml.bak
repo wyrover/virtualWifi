@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<root>
+	<Soft>
+		<Title>–Èƒ‚WIFI</Title>
+		<Addr>127.0.0.1</Addr>
+		<Port>1300</Port>
+		<Version>V1.0.0.2</Version>
+		<MainUi>VirtualWifiGui.exe</MainUi>
+		<Back>Res/back.png</Back>
+		<Cursor>Res/capture_cursor.cur</Cursor>
+	</Soft>
+	<Config>
+		<StartPath>VirtualWifi.exe</StartPath>
+		<AutoRun value="false">
+			<AutoRunPath>VirtualWifi.exe</AutoRunPath>
+		</AutoRun>
+		<SoundTip value="true">
+			<SoundPath />
+		</SoundTip>
+		<AutoStartWifi value="false" />
+		<ProvinceMemory value="true" />
+		<AutoUpdate value="true" />
+		<EventBalloonTip value="true" />
+		<HasNewClientBalloonTip value="true" />
+	</Config>
+	<NotifyIcon>
+		<NoStart>Res/NoStart.ico</NoStart>
+		<Start>Res/Start.ico</Start>
+		<DynamicShowNums>13</DynamicShowNums>
+		<DynamicShow>Res/DynamicShowIcon/1.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/2.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/3.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/4.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/5.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/6.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/7.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/8.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/9.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/10.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/11.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/12.ico</DynamicShow>
+		<DynamicShow>Res/DynamicShowIcon/13.ico</DynamicShow>
+	</NotifyIcon>
+</root>

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{78bc973a-2410-423c-9970-74437e241ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{df3760ac-bea1-45eb-acab-05e1a06d8c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualWifiBase">
+      <UniqueIdentifier>{8348ff69-8e74-4b14-b46a-1dda57624c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualWifiBase\头文件">
+      <UniqueIdentifier>{9b0658e7-9ca2-46f5-8adc-4a75a0689a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualWifiBase\源文件">
+      <UniqueIdentifier>{baf7252c-c564-445b-a4ab-b39d9fb8791a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotifyIcon">
+      <UniqueIdentifier>{9cff16e4-b7c6-4056-bdbd-9352377922b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotifyIcon\头文件">
+      <UniqueIdentifier>{b084cf6f-353b-43f4-91bf-3cbef83193e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotifyIcon\源文件">
+      <UniqueIdentifier>{d4b53272-be41-47a7-97af-2518670f9ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adapter">
+      <UniqueIdentifier>{fcdcdab2-1042-4003-8ab7-1d17167da472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{b8243752-0f6c-4273-8097-d8b24b952f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\源文件">
+      <UniqueIdentifier>{170b3b5a-6371-40fa-a123-497a4cf74754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\头文件">
+      <UniqueIdentifier>{2b6ff251-3e3c-48a4-9963-1eb0c3cf7476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\源文件">
+      <UniqueIdentifier>{581f666c-2421-416f-8709-a3496dd82ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Judage">
+      <UniqueIdentifier>{3b1be5be-3cb3-4c16-8d4a-98e30e0080d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Judage\头文件">
+      <UniqueIdentifier>{cb157856-c8d6-45f3-aa13-373677a6acd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Judage\源文件">
+      <UniqueIdentifier>{6f27c890-b17f-42a6-9b49-5d5edd9cfcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analysis">
+      <UniqueIdentifier>{e5b3739c-473d-46dd-9440-63808051cb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analysis\头文件">
+      <UniqueIdentifier>{99c3bcbd-25a3-42d5-9b64-e07435de141e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analysis\源文件">
+      <UniqueIdentifier>{f133032c-687c-464f-a4ae-c4b4adb1b0b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Achieve">
+      <UniqueIdentifier>{4c212233-bd6c-4797-9177-d56ebd987302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Achieve\头文件">
+      <UniqueIdentifier>{02569204-394f-4701-9895-8529136433be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Achieve\源文件">
+      <UniqueIdentifier>{5c950725-aca7-4c61-8a36-6659e4a105bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{5d88421a-a31d-44e7-a8b2-6a27c137ff44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception\头文件">
+      <UniqueIdentifier>{266300df-99fe-4bee-be87-6c49aeb53020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{bc064660-b043-402e-b056-e82450956be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\头文件">
+      <UniqueIdentifier>{c6a2e70a-18ac-4c42-b2c8-7420e6589373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\源文件">
+      <UniqueIdentifier>{7c43c002-0747-4dfb-b30d-f397addb26e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reg">
+      <UniqueIdentifier>{2b6053d4-7f48-4bd9-8722-c7f8db2d9fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reg\源文件">
+      <UniqueIdentifier>{a1d98ae5-eed1-45ae-8709-a09bac4d5360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reg\头文件">
+      <UniqueIdentifier>{c31d4f7c-c752-4732-b91a-49b8f15fad18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Init">
+      <UniqueIdentifier>{76e136b4-542a-40d7-bd0a-633ff445a8e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{e5ca24a6-7f59-4945-8cd2-08c84ba99950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="流量统计">
+      <UniqueIdentifier>{2ac56355-e6a8-49b3-b594-d0059a80f5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="流量统计\源文件">
+      <UniqueIdentifier>{1da0e53b-ff4a-4f89-b935-c406b052c781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="流量统计\头文件">
+      <UniqueIdentifier>{142bca01-aebb-428a-a921-f0ca11d3a097}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualConfig.cpp">
+      <Filter>DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiConfig.cpp">
+      <Filter>VirtualWifiBase\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiNetInfo.cpp">
+      <Filter>VirtualWifiBase\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiNotifyIconInfo.cpp">
+      <Filter>VirtualWifiBase\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiSoft.cpp">
+      <Filter>VirtualWifiBase\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiNotifyIcon.cpp">
+      <Filter>NotifyIcon\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiNotifyIconBase.cpp">
+      <Filter>NotifyIcon\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiManageAdapter.cpp">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiSocketBase.cpp">
+      <Filter>Socket\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiSocket.cpp">
+      <Filter>Socket\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiCommandBase.cpp">
+      <Filter>Command\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiCommunication.cpp">
+      <Filter>Socket\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiJudage.cpp">
+      <Filter>Judage\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiCommandOut.cpp">
+      <Filter>Command\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiCommandIn.cpp">
+      <Filter>Command\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiAnalysis.cpp">
+      <Filter>Analysis\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiConst.cpp">
+      <Filter>other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiExecuteCmd.cpp">
+      <Filter>other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiIdentifier.cpp">
+      <Filter>other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiParse.cpp">
+      <Filter>other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiAchieveBase.cpp">
+      <Filter>Achieve\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiAchieve.cpp">
+      <Filter>Achieve\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiLog.cpp">
+      <Filter>other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiErrorMes.cpp">
+      <Filter>other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiService.cpp">
+      <Filter>other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiRegBase.cpp">
+      <Filter>Reg\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiReg.cpp">
+      <Filter>Reg\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiDriver.cpp">
+      <Filter>VirtualWifiBase\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiTask.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="TASK_THREAD.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiInit.cpp">
+      <Filter>Init</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiMac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiMacList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiPeer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiPeerList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualPeerHis.cpp">
+      <Filter>VirtualWifiBase\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiCountFlow.cpp">
+      <Filter>流量统计\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWifiFlow.cpp">
+      <Filter>流量统计\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="virtualconfig.h">
+      <Filter>DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiXml.h">
+      <Filter>VirtualWifiBase\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiNotifyIcon.h">
+      <Filter>NotifyIcon\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiNotifyIconBase.h">
+      <Filter>NotifyIcon\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdapterNeedHead.h">
+      <Filter>Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiManageAdapter.h">
+      <Filter>Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiSocketBase.h">
+      <Filter>Socket\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiSocket.h">
+      <Filter>Socket\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiSocket.h">
+      <Filter>Socket\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiCommunication.h">
+      <Filter>Socket\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiJudage.h">
+      <Filter>Judage\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiAnalysis.h">
+      <Filter>Analysis\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiException.h">
+      <Filter>Exception\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiIdentifier.h">
+      <Filter>other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiExecuteCmd.h">
+      <Filter>other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiConst.h">
+      <Filter>other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiParse.h">
+      <Filter>other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiAchieveBase.h">
+      <Filter>Achieve\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiLog.h">
+      <Filter>other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiErrorMes.h">
+      <Filter>other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiService.h">
+      <Filter>other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiRegBase.h">
+      <Filter>Reg\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiReg.h">
+      <Filter>Reg\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiAchieve.h">
+      <Filter>Achieve\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiDriver.h">
+      <Filter>VirtualWifiBase\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiTask.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiInit.h">
+      <Filter>Init</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiMac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiPeer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiInfo.h">
+      <Filter>DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiCountFlow.h">
+      <Filter>流量统计\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWifiFlow.h">
+      <Filter>流量统计\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

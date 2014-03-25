@@ -1,0 +1,588 @@
+﻿生成启动时间为 2012/6/5 12:04:44。
+     1>项目“D:\VirtualWifi工程\VirtualWifiCore\VirtualWifiCore\VirtualWifiCore.vcxproj”在节点 4 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\VirtualWifiCore.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\VirtualWifiCore.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VIRTUALWIFICORE_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\VirtualWifiCore.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VIRTUALWIFICORE_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VIRTUALWIFICORE_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\VirtualWifiCore.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Entry.cpp TASK_THREAD.cpp VirtualPeerHis.cpp VirtualWifiAchieve.cpp VirtualWifiAnalysis.cpp VirtualWifiApp.cpp VirtualWifiBase.cpp VirtualWifiCommandIn.cpp VirtualWifiCommandOut.cpp VirtualWifiCommandBase.cpp VirtualWifiCommunication.cpp VirtualWifiConst.cpp VirtualConfig.cpp VirtualWifiCore.cpp VirtualWifiCountFlow.cpp VirtualWifiDriver.cpp VirtualWifiExecuteCmd.cpp VirtualWifiFlow.cpp VirtualWifiIdentifier.cpp VirtualWifiInit.cpp VirtualWifiJudage.cpp VirtualWifiLog.cpp VirtualWifiMac.cpp VirtualWifiMacList.cpp VirtualWifiParse.cpp VirtualWifiPeer.cpp VirtualWifiPeerList.cpp VirtualWifiReg.cpp VirtualWifiRegBase.cpp VirtualWifiService.cpp VirtualWifiSocket.cpp VirtualWifiSocketBase.cpp VirtualWifiConfig.cpp VirtualWifiNetInfo.cpp VirtualWifiNotifyIconInfo.cpp VirtualWifiSoft.cpp VirtualWifiNotifyIcon.cpp VirtualWifiNotifyIconBase.cpp VirtualWifiManageAdapter.cpp VirtualWifiAchieveBase.cpp VirtualWifiErrorMes.cpp VirtualWifiTask.cpp
+         VirtualWifiTask.cpp
+         VirtualWifiErrorMes.cpp
+         VirtualWifiAchieveBase.cpp
+         VirtualWifiManageAdapter.cpp
+         VirtualWifiNotifyIconBase.cpp
+         VirtualWifiNotifyIcon.cpp
+         VirtualWifiSoft.cpp
+         VirtualWifiNotifyIconInfo.cpp
+         VirtualWifiNetInfo.cpp
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 e:\boost\boost\algorithm\string\detail\classification.hpp(102): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 e:\boost\boost\algorithm\string\classification.hpp(206): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)”的引用
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifinetinfo.cpp(17): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[2]>(RangeT (&))”的引用
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [2]
+                 ]
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(3051): warning C4996: 'std::_Equal1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(3036) : 参见“std::_Equal1”的声明
+                 e:\boost\boost\range\algorithm\equal.hpp(103): 参见对正在编译的函数 模板 实例化“bool std::equal<RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator2>(_InIt1,_InIt1,_InIt2)”的引用
+                 with
+                 [
+                     RandomAccessTraversalReadableIterator1=const char *,
+                     RandomAccessTraversalReadableIterator2=const char *,
+                     _InIt1=const char *,
+                     _InIt2=const char *
+                 ]
+                 e:\boost\boost\range\algorithm\equal.hpp(129): 参见对正在编译的函数 模板 实例化“bool boost::range_detail::equal_impl<SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator2>(RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator2,RandomAccessTraversalReadableIterator2,std::random_access_iterator_tag,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     SinglePassTraversalReadableIterator1=const char *,
+                     SinglePassTraversalReadableIterator2=const char *,
+                     RandomAccessTraversalReadableIterator1=const char *,
+                     RandomAccessTraversalReadableIterator2=const char *
+                 ]
+                 e:\boost\boost\range\algorithm\equal.hpp(167): 参见对正在编译的函数 模板 实例化“bool boost::range_detail::equal<const char*,const char*>(SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator2,SinglePassTraversalReadableIterator2)”的引用
+                 with
+                 [
+                     SinglePassTraversalReadableIterator1=const char *,
+                     SinglePassTraversalReadableIterator2=const char *
+                 ]
+                 e:\boost\boost\range\iterator_range_core.hpp(368): 参见对正在编译的函数 模板 实例化“bool boost::range::equal<boost::iterator_range<IteratorT>,boost::iterator_range<IteratorT>>(const SinglePassRange1 &,const SinglePassRange2 &)”的引用
+                 with
+                 [
+                     IteratorT=const char *,
+                     SinglePassRange1=boost::iterator_range<const char *>,
+                     SinglePassRange2=boost::iterator_range<const char *>
+                 ]
+                 e:\boost\boost\algorithm\string\find_iterator.hpp(320): 参见对正在编译的函数 模板 实例化“bool boost::operator ==<const char*,const char*>(const boost::iterator_range<IteratorT> &,const boost::iterator_range<IteratorT> &)”的引用
+                 with
+                 [
+                     IteratorT=const char *
+                 ]
+                 e:\boost\boost\algorithm\string\find_iterator.hpp(314): 编译类 模板 成员函数“bool boost::algorithm::split_iterator<IteratorT>::equal(const boost::algorithm::split_iterator<IteratorT> &) const”时
+                 with
+                 [
+                     IteratorT=input_iterator_type
+                 ]
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(373): 参见对正在编译的类 模板 实例化“boost::algorithm::split_iterator<IteratorT>”的引用
+                 with
+                 [
+                     IteratorT=input_iterator_type
+                 ]
+                 e:\boost\boost\detail\iterator.hpp(83): 参见对正在编译的类 模板 实例化“std::iterator_traits<_Iter>”的引用
+                 with
+                 [
+                     _Iter=find_iterator_type
+                 ]
+                 e:\boost\boost\iterator\iterator_categories.hpp(161): 参见对正在编译的类 模板 实例化“boost::detail::iterator_traits<Iterator>”的引用
+                 with
+                 [
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\mpl\eval_if.hpp(41): 参见对正在编译的类 模板 实例化“boost::iterator_traversal<Iterator>”的引用
+                 with
+                 [
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(172): 参见对正在编译的类 模板 实例化“boost::mpl::eval_if<C,F1,F2>”的引用
+                 with
+                 [
+                     C=boost::is_same<boost::use_default,boost::use_default>,
+                     F1=boost::iterator_traversal<find_iterator_type>,
+                     F2=boost::mpl::identity<boost::use_default>
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(208): 参见对正在编译的类 模板 实例化“boost::detail::ia_dflt_help<T,DefaultNullaryFn>”的引用
+                 with
+                 [
+                     T=boost::use_default,
+                     DefaultNullaryFn=boost::iterator_traversal<find_iterator_type>
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(270): 参见对正在编译的类 模板 实例化“boost::detail::iterator_adaptor_base<Derived,Base,Value,Traversal,Reference,Difference>”的引用
+                 with
+                 [
+                     Derived=boost::transform_iterator<copy_range_type,find_iterator_type>,
+                     Base=find_iterator_type,
+                     Value=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Traversal=boost::use_default,
+                     Reference=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Difference=boost::use_default
+                 ]
+                 e:\boost\boost\iterator\transform_iterator.hpp(92): 参见对正在编译的类 模板 实例化“boost::iterator_adaptor<Derived,Base,Value,Traversal,Reference>”的引用
+                 with
+                 [
+                     Derived=boost::transform_iterator<copy_range_type,find_iterator_type>,
+                     Base=find_iterator_type,
+                     Value=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Traversal=boost::use_default,
+                     Reference=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+                 ]
+                 e:\boost\boost\algorithm\string\iter_find.hpp(168): 参见对正在编译的类 模板 实例化“boost::transform_iterator<UnaryFunc,Iterator>”的引用
+                 with
+                 [
+                     UnaryFunc=copy_range_type,
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\algorithm\string\split.hpp(149): 参见对正在编译的函数 模板 实例化“SequenceSequenceT &boost::algorithm::iter_split<SequenceSequenceT,RangeT,boost::algorithm::detail::token_finderF<PredicateT>>(SequenceSequenceT &,RangeT &,FinderT)”的引用
+                 with
+                 [
+                     SequenceSequenceT=std::vector<std::string>,
+                     RangeT=const char *,
+                     PredicateT=boost::algorithm::detail::is_any_ofF<char>,
+                     FinderT=boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>
+                 ]
+                 d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifinetinfo.cpp(17): 参见对正在编译的函数 模板 实例化“SequenceSequenceT &boost::algorithm::split<std::vector<_Ty>,const char*,boost::algorithm::detail::is_any_ofF<CharT>>(SequenceSequenceT &,RangeT &,PredicateT,boost::algorithm::token_compress_mode_type)”的引用
+                 with
+                 [
+                     SequenceSequenceT=std::vector<std::string>,
+                     _Ty=std::string,
+                     CharT=char,
+                     RangeT=const char *,
+                     PredicateT=boost::algorithm::detail::is_any_ofF<char>
+                 ]
+         VirtualWifiConfig.cpp
+         VirtualWifiSocketBase.cpp
+         VirtualWifiSocket.cpp
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifisocket.cpp(165): warning C4101: “sz_speed”: 未引用的局部变量
+         VirtualWifiService.cpp
+         VirtualWifiRegBase.cpp
+         VirtualWifiReg.cpp
+         VirtualWifiPeerList.cpp
+         VirtualWifiPeer.cpp
+         VirtualWifiParse.cpp
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 e:\boost\boost\algorithm\string\detail\classification.hpp(102): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 e:\boost\boost\algorithm\string\classification.hpp(206): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)”的引用
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifiparse.cpp(17): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[2]>(RangeT (&))”的引用
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [2]
+                 ]
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(3051): warning C4996: 'std::_Equal1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(3036) : 参见“std::_Equal1”的声明
+                 e:\boost\boost\range\algorithm\equal.hpp(103): 参见对正在编译的函数 模板 实例化“bool std::equal<RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator2>(_InIt1,_InIt1,_InIt2)”的引用
+                 with
+                 [
+                     RandomAccessTraversalReadableIterator1=const char *,
+                     RandomAccessTraversalReadableIterator2=const char *,
+                     _InIt1=const char *,
+                     _InIt2=const char *
+                 ]
+                 e:\boost\boost\range\algorithm\equal.hpp(129): 参见对正在编译的函数 模板 实例化“bool boost::range_detail::equal_impl<SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator2>(RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator2,RandomAccessTraversalReadableIterator2,std::random_access_iterator_tag,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     SinglePassTraversalReadableIterator1=const char *,
+                     SinglePassTraversalReadableIterator2=const char *,
+                     RandomAccessTraversalReadableIterator1=const char *,
+                     RandomAccessTraversalReadableIterator2=const char *
+                 ]
+                 e:\boost\boost\range\algorithm\equal.hpp(167): 参见对正在编译的函数 模板 实例化“bool boost::range_detail::equal<const char*,const char*>(SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator2,SinglePassTraversalReadableIterator2)”的引用
+                 with
+                 [
+                     SinglePassTraversalReadableIterator1=const char *,
+                     SinglePassTraversalReadableIterator2=const char *
+                 ]
+                 e:\boost\boost\range\iterator_range_core.hpp(368): 参见对正在编译的函数 模板 实例化“bool boost::range::equal<boost::iterator_range<IteratorT>,boost::iterator_range<IteratorT>>(const SinglePassRange1 &,const SinglePassRange2 &)”的引用
+                 with
+                 [
+                     IteratorT=const char *,
+                     SinglePassRange1=boost::iterator_range<const char *>,
+                     SinglePassRange2=boost::iterator_range<const char *>
+                 ]
+                 e:\boost\boost\algorithm\string\find_iterator.hpp(320): 参见对正在编译的函数 模板 实例化“bool boost::operator ==<const char*,const char*>(const boost::iterator_range<IteratorT> &,const boost::iterator_range<IteratorT> &)”的引用
+                 with
+                 [
+                     IteratorT=const char *
+                 ]
+                 e:\boost\boost\algorithm\string\find_iterator.hpp(314): 编译类 模板 成员函数“bool boost::algorithm::split_iterator<IteratorT>::equal(const boost::algorithm::split_iterator<IteratorT> &) const”时
+                 with
+                 [
+                     IteratorT=input_iterator_type
+                 ]
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(373): 参见对正在编译的类 模板 实例化“boost::algorithm::split_iterator<IteratorT>”的引用
+                 with
+                 [
+                     IteratorT=input_iterator_type
+                 ]
+                 e:\boost\boost\detail\iterator.hpp(83): 参见对正在编译的类 模板 实例化“std::iterator_traits<_Iter>”的引用
+                 with
+                 [
+                     _Iter=find_iterator_type
+                 ]
+                 e:\boost\boost\iterator\iterator_categories.hpp(161): 参见对正在编译的类 模板 实例化“boost::detail::iterator_traits<Iterator>”的引用
+                 with
+                 [
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\mpl\eval_if.hpp(41): 参见对正在编译的类 模板 实例化“boost::iterator_traversal<Iterator>”的引用
+                 with
+                 [
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(172): 参见对正在编译的类 模板 实例化“boost::mpl::eval_if<C,F1,F2>”的引用
+                 with
+                 [
+                     C=boost::is_same<boost::use_default,boost::use_default>,
+                     F1=boost::iterator_traversal<find_iterator_type>,
+                     F2=boost::mpl::identity<boost::use_default>
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(208): 参见对正在编译的类 模板 实例化“boost::detail::ia_dflt_help<T,DefaultNullaryFn>”的引用
+                 with
+                 [
+                     T=boost::use_default,
+                     DefaultNullaryFn=boost::iterator_traversal<find_iterator_type>
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(270): 参见对正在编译的类 模板 实例化“boost::detail::iterator_adaptor_base<Derived,Base,Value,Traversal,Reference,Difference>”的引用
+                 with
+                 [
+                     Derived=boost::transform_iterator<copy_range_type,find_iterator_type>,
+                     Base=find_iterator_type,
+                     Value=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Traversal=boost::use_default,
+                     Reference=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Difference=boost::use_default
+                 ]
+                 e:\boost\boost\iterator\transform_iterator.hpp(92): 参见对正在编译的类 模板 实例化“boost::iterator_adaptor<Derived,Base,Value,Traversal,Reference>”的引用
+                 with
+                 [
+                     Derived=boost::transform_iterator<copy_range_type,find_iterator_type>,
+                     Base=find_iterator_type,
+                     Value=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Traversal=boost::use_default,
+                     Reference=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+                 ]
+                 e:\boost\boost\algorithm\string\iter_find.hpp(168): 参见对正在编译的类 模板 实例化“boost::transform_iterator<UnaryFunc,Iterator>”的引用
+                 with
+                 [
+                     UnaryFunc=copy_range_type,
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\algorithm\string\split.hpp(149): 参见对正在编译的函数 模板 实例化“SequenceSequenceT &boost::algorithm::iter_split<SequenceSequenceT,RangeT,boost::algorithm::detail::token_finderF<PredicateT>>(SequenceSequenceT &,RangeT &,FinderT)”的引用
+                 with
+                 [
+                     SequenceSequenceT=std::vector<std::string>,
+                     RangeT=const char *,
+                     PredicateT=boost::algorithm::detail::is_any_ofF<char>,
+                     FinderT=boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>
+                 ]
+                 d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifiparse.cpp(17): 参见对正在编译的函数 模板 实例化“SequenceSequenceT &boost::algorithm::split<std::vector<_Ty>,const char*,boost::algorithm::detail::is_any_ofF<CharT>>(SequenceSequenceT &,RangeT &,PredicateT,boost::algorithm::token_compress_mode_type)”的引用
+                 with
+                 [
+                     SequenceSequenceT=std::vector<std::string>,
+                     _Ty=std::string,
+                     CharT=char,
+                     RangeT=const char *,
+                     PredicateT=boost::algorithm::detail::is_any_ofF<char>
+                 ]
+         VirtualWifiMacList.cpp
+         VirtualWifiMac.cpp
+         正在生成代码...
+         正在编译...
+         VirtualWifiLog.cpp
+         VirtualWifiJudage.cpp
+         VirtualWifiInit.cpp
+         VirtualWifiIdentifier.cpp
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifiidentifier.cpp(23): warning C4309: “初始化”: 截断常量值
+         VirtualWifiFlow.cpp
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwififlow.cpp(58): warning C4244: “初始化”: 从“DOUBLE”转换到“float”，可能丢失数据
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwififlow.cpp(64): warning C4244: “初始化”: 从“DOUBLE”转换到“float”，可能丢失数据
+         VirtualWifiExecuteCmd.cpp
+         VirtualWifiDriver.cpp
+         VirtualWifiCountFlow.cpp
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwificountflow.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwificountflow.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+         VirtualWifiCore.cpp
+         VirtualConfig.cpp
+         VirtualWifiConst.cpp
+         VirtualWifiCommunication.cpp
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwificommunication.cpp(128): warning C4101: “sz_buffer”: 未引用的局部变量
+         VirtualWifiCommandBase.cpp
+         VirtualWifiCommandOut.cpp
+         VirtualWifiCommandIn.cpp
+         VirtualWifiBase.cpp
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifibase.cpp(53): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         VirtualWifiApp.cpp
+         VirtualWifiAnalysis.cpp
+         VirtualWifiAchieve.cpp
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 e:\boost\boost\algorithm\string\detail\classification.hpp(102): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 e:\boost\boost\algorithm\string\classification.hpp(206): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)”的引用
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifiachieve.cpp(109): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[2]>(RangeT (&))”的引用
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [2]
+                 ]
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(3051): warning C4996: 'std::_Equal1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(3036) : 参见“std::_Equal1”的声明
+                 e:\boost\boost\range\algorithm\equal.hpp(103): 参见对正在编译的函数 模板 实例化“bool std::equal<RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator2>(_InIt1,_InIt1,_InIt2)”的引用
+                 with
+                 [
+                     RandomAccessTraversalReadableIterator1=const char *,
+                     RandomAccessTraversalReadableIterator2=const char *,
+                     _InIt1=const char *,
+                     _InIt2=const char *
+                 ]
+                 e:\boost\boost\range\algorithm\equal.hpp(129): 参见对正在编译的函数 模板 实例化“bool boost::range_detail::equal_impl<SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator2>(RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator1,RandomAccessTraversalReadableIterator2,RandomAccessTraversalReadableIterator2,std::random_access_iterator_tag,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     SinglePassTraversalReadableIterator1=const char *,
+                     SinglePassTraversalReadableIterator2=const char *,
+                     RandomAccessTraversalReadableIterator1=const char *,
+                     RandomAccessTraversalReadableIterator2=const char *
+                 ]
+                 e:\boost\boost\range\algorithm\equal.hpp(167): 参见对正在编译的函数 模板 实例化“bool boost::range_detail::equal<const char*,const char*>(SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator1,SinglePassTraversalReadableIterator2,SinglePassTraversalReadableIterator2)”的引用
+                 with
+                 [
+                     SinglePassTraversalReadableIterator1=const char *,
+                     SinglePassTraversalReadableIterator2=const char *
+                 ]
+                 e:\boost\boost\range\iterator_range_core.hpp(368): 参见对正在编译的函数 模板 实例化“bool boost::range::equal<boost::iterator_range<IteratorT>,boost::iterator_range<IteratorT>>(const SinglePassRange1 &,const SinglePassRange2 &)”的引用
+                 with
+                 [
+                     IteratorT=const char *,
+                     SinglePassRange1=boost::iterator_range<const char *>,
+                     SinglePassRange2=boost::iterator_range<const char *>
+                 ]
+                 e:\boost\boost\algorithm\string\find_iterator.hpp(320): 参见对正在编译的函数 模板 实例化“bool boost::operator ==<const char*,const char*>(const boost::iterator_range<IteratorT> &,const boost::iterator_range<IteratorT> &)”的引用
+                 with
+                 [
+                     IteratorT=const char *
+                 ]
+                 e:\boost\boost\algorithm\string\find_iterator.hpp(314): 编译类 模板 成员函数“bool boost::algorithm::split_iterator<IteratorT>::equal(const boost::algorithm::split_iterator<IteratorT> &) const”时
+                 with
+                 [
+                     IteratorT=input_iterator_type
+                 ]
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(373): 参见对正在编译的类 模板 实例化“boost::algorithm::split_iterator<IteratorT>”的引用
+                 with
+                 [
+                     IteratorT=input_iterator_type
+                 ]
+                 e:\boost\boost\detail\iterator.hpp(83): 参见对正在编译的类 模板 实例化“std::iterator_traits<_Iter>”的引用
+                 with
+                 [
+                     _Iter=find_iterator_type
+                 ]
+                 e:\boost\boost\iterator\iterator_categories.hpp(161): 参见对正在编译的类 模板 实例化“boost::detail::iterator_traits<Iterator>”的引用
+                 with
+                 [
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\mpl\eval_if.hpp(41): 参见对正在编译的类 模板 实例化“boost::iterator_traversal<Iterator>”的引用
+                 with
+                 [
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(172): 参见对正在编译的类 模板 实例化“boost::mpl::eval_if<C,F1,F2>”的引用
+                 with
+                 [
+                     C=boost::is_same<boost::use_default,boost::use_default>,
+                     F1=boost::iterator_traversal<find_iterator_type>,
+                     F2=boost::mpl::identity<boost::use_default>
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(208): 参见对正在编译的类 模板 实例化“boost::detail::ia_dflt_help<T,DefaultNullaryFn>”的引用
+                 with
+                 [
+                     T=boost::use_default,
+                     DefaultNullaryFn=boost::iterator_traversal<find_iterator_type>
+                 ]
+                 e:\boost\boost\iterator\iterator_adaptor.hpp(270): 参见对正在编译的类 模板 实例化“boost::detail::iterator_adaptor_base<Derived,Base,Value,Traversal,Reference,Difference>”的引用
+                 with
+                 [
+                     Derived=boost::transform_iterator<copy_range_type,find_iterator_type>,
+                     Base=find_iterator_type,
+                     Value=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Traversal=boost::use_default,
+                     Reference=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Difference=boost::use_default
+                 ]
+                 e:\boost\boost\iterator\transform_iterator.hpp(92): 参见对正在编译的类 模板 实例化“boost::iterator_adaptor<Derived,Base,Value,Traversal,Reference>”的引用
+                 with
+                 [
+                     Derived=boost::transform_iterator<copy_range_type,find_iterator_type>,
+                     Base=find_iterator_type,
+                     Value=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+                     Traversal=boost::use_default,
+                     Reference=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+                 ]
+                 e:\boost\boost\algorithm\string\iter_find.hpp(168): 参见对正在编译的类 模板 实例化“boost::transform_iterator<UnaryFunc,Iterator>”的引用
+                 with
+                 [
+                     UnaryFunc=copy_range_type,
+                     Iterator=find_iterator_type
+                 ]
+                 e:\boost\boost\algorithm\string\split.hpp(149): 参见对正在编译的函数 模板 实例化“SequenceSequenceT &boost::algorithm::iter_split<SequenceSequenceT,RangeT,boost::algorithm::detail::token_finderF<PredicateT>>(SequenceSequenceT &,RangeT &,FinderT)”的引用
+                 with
+                 [
+                     SequenceSequenceT=std::vector<std::string>,
+                     RangeT=const char *,
+                     PredicateT=boost::algorithm::detail::is_any_ofF<char>,
+                     FinderT=boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>
+                 ]
+                 d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifiachieve.cpp(109): 参见对正在编译的函数 模板 实例化“SequenceSequenceT &boost::algorithm::split<std::vector<_Ty>,const char*,boost::algorithm::detail::is_any_ofF<CharT>>(SequenceSequenceT &,RangeT &,PredicateT,boost::algorithm::token_compress_mode_type)”的引用
+                 with
+                 [
+                     SequenceSequenceT=std::vector<std::string>,
+                     _Ty=std::string,
+                     CharT=char,
+                     RangeT=const char *,
+                     PredicateT=boost::algorithm::detail::is_any_ofF<char>
+                 ]
+         VirtualPeerHis.cpp
+         正在生成代码...
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifiachieve.cpp(104): warning C4715: “VirtualWifiAchieve::intelligent_net_adapters”: 不是所有的控件路径都返回值
+         正在编译...
+         TASK_THREAD.cpp
+         Entry.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\VirtualWifiCore.dll.embed.manifest.res" Debug\VirtualWifiCore_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VirtualWifiCore.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.lib" /MACHINE:X86 /DLL Debug\VirtualWifiCore.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\Entry.obj
+         Debug\stdafx.obj
+         Debug\TASK_THREAD.obj
+         Debug\VirtualPeerHis.obj
+         Debug\VirtualWifiAchieve.obj
+         Debug\VirtualWifiAnalysis.obj
+         Debug\VirtualWifiApp.obj
+         Debug\VirtualWifiBase.obj
+         Debug\VirtualWifiCommandIn.obj
+         Debug\VirtualWifiCommandOut.obj
+         Debug\VirtualWifiCommandBase.obj
+         Debug\VirtualWifiCommunication.obj
+         Debug\VirtualWifiConst.obj
+         Debug\VirtualConfig.obj
+         Debug\VirtualWifiCore.obj
+         Debug\VirtualWifiCountFlow.obj
+         Debug\VirtualWifiDriver.obj
+         Debug\VirtualWifiExecuteCmd.obj
+         Debug\VirtualWifiFlow.obj
+         Debug\VirtualWifiIdentifier.obj
+         Debug\VirtualWifiInit.obj
+         Debug\VirtualWifiJudage.obj
+         Debug\VirtualWifiLog.obj
+         Debug\VirtualWifiMac.obj
+         Debug\VirtualWifiMacList.obj
+         Debug\VirtualWifiParse.obj
+         Debug\VirtualWifiPeer.obj
+         Debug\VirtualWifiPeerList.obj
+         Debug\VirtualWifiReg.obj
+         Debug\VirtualWifiRegBase.obj
+         Debug\VirtualWifiService.obj
+         Debug\VirtualWifiSocket.obj
+         Debug\VirtualWifiSocketBase.obj
+         Debug\VirtualWifiConfig.obj
+         Debug\VirtualWifiNetInfo.obj
+         Debug\VirtualWifiNotifyIconInfo.obj
+         Debug\VirtualWifiSoft.obj
+         Debug\VirtualWifiNotifyIcon.obj
+         Debug\VirtualWifiNotifyIconBase.obj
+         Debug\VirtualWifiManageAdapter.obj
+         Debug\VirtualWifiAchieveBase.obj
+         Debug\VirtualWifiErrorMes.obj
+         Debug\VirtualWifiTask.obj
+            正在创建库 D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.lib 和对象 D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.exp
+       Manifest:
+         正在删除文件“Debug\VirtualWifiCore.dll.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\VirtualWifiCore.dll.embed.manifest" /manifest Debug\VirtualWifiCore.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\VirtualWifiCore.dll.embed.manifest.res" Debug\VirtualWifiCore_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VirtualWifiCore.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.lib" /MACHINE:X86 /DLL Debug\VirtualWifiCore.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\Entry.obj
+         Debug\stdafx.obj
+         Debug\TASK_THREAD.obj
+         Debug\VirtualPeerHis.obj
+         Debug\VirtualWifiAchieve.obj
+         Debug\VirtualWifiAnalysis.obj
+         Debug\VirtualWifiApp.obj
+         Debug\VirtualWifiBase.obj
+         Debug\VirtualWifiCommandIn.obj
+         Debug\VirtualWifiCommandOut.obj
+         Debug\VirtualWifiCommandBase.obj
+         Debug\VirtualWifiCommunication.obj
+         Debug\VirtualWifiConst.obj
+         Debug\VirtualConfig.obj
+         Debug\VirtualWifiCore.obj
+         Debug\VirtualWifiCountFlow.obj
+         Debug\VirtualWifiDriver.obj
+         Debug\VirtualWifiExecuteCmd.obj
+         Debug\VirtualWifiFlow.obj
+         Debug\VirtualWifiIdentifier.obj
+         Debug\VirtualWifiInit.obj
+         Debug\VirtualWifiJudage.obj
+         Debug\VirtualWifiLog.obj
+         Debug\VirtualWifiMac.obj
+         Debug\VirtualWifiMacList.obj
+         Debug\VirtualWifiParse.obj
+         Debug\VirtualWifiPeer.obj
+         Debug\VirtualWifiPeerList.obj
+         Debug\VirtualWifiReg.obj
+         Debug\VirtualWifiRegBase.obj
+         Debug\VirtualWifiService.obj
+         Debug\VirtualWifiSocket.obj
+         Debug\VirtualWifiSocketBase.obj
+         Debug\VirtualWifiConfig.obj
+         Debug\VirtualWifiNetInfo.obj
+         Debug\VirtualWifiNotifyIconInfo.obj
+         Debug\VirtualWifiSoft.obj
+         Debug\VirtualWifiNotifyIcon.obj
+         Debug\VirtualWifiNotifyIconBase.obj
+         Debug\VirtualWifiManageAdapter.obj
+         Debug\VirtualWifiAchieveBase.obj
+         Debug\VirtualWifiErrorMes.obj
+         Debug\VirtualWifiTask.obj
+            正在创建库 D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.lib 和对象 D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.exp
+         VirtualWifiCore.vcxproj -> D:\VirtualWifi工程\VirtualWifiCore\Debug\VirtualWifiCore.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VirtualWifiCore.unsuccessfulbuild”。
+         正在对“Debug\VirtualWifiCore.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VirtualWifi工程\VirtualWifiCore\VirtualWifiCore\VirtualWifiCore.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.38

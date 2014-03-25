@@ -1,0 +1,124 @@
+﻿生成启动时间为 2012/6/5 16:19:12。
+     1>项目“D:\VirtualWifi工程\VirtualWifiCore\VirtualWifiCore\VirtualWifiCore.vcxproj”在节点 4 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\VirtualWifiCore.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\VirtualWifiCore.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\boost /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D VIRTUALWIFICORE_EXPORTS /D _WINDLL /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\VirtualWifiCore.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\boost /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D VIRTUALWIFICORE_EXPORTS /D _WINDLL /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\boost /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D VIRTUALWIFICORE_EXPORTS /D _WINDLL /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\VirtualWifiCore.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Entry.cpp TASK_THREAD.cpp VirtualPeerHis.cpp VirtualWifiAchieve.cpp VirtualWifiAnalysis.cpp VirtualWifiApp.cpp VirtualWifiBase.cpp VirtualWifiCommandIn.cpp VirtualWifiCommandOut.cpp VirtualWifiCommandBase.cpp VirtualWifiCommunication.cpp VirtualWifiConst.cpp VirtualConfig.cpp VirtualWifiCore.cpp VirtualWifiCountFlow.cpp VirtualWifiDriver.cpp VirtualWifiExecuteCmd.cpp VirtualWifiFlow.cpp VirtualWifiIdentifier.cpp VirtualWifiInit.cpp VirtualWifiJudage.cpp VirtualWifiLog.cpp VirtualWifiMac.cpp VirtualWifiMacList.cpp VirtualWifiParse.cpp VirtualWifiPeer.cpp VirtualWifiPeerList.cpp VirtualWifiReg.cpp VirtualWifiRegBase.cpp VirtualWifiService.cpp VirtualWifiSocket.cpp VirtualWifiSocketBase.cpp VirtualWifiConfig.cpp VirtualWifiNetInfo.cpp VirtualWifiNotifyIconInfo.cpp VirtualWifiSoft.cpp VirtualWifiNotifyIcon.cpp VirtualWifiNotifyIconBase.cpp VirtualWifiManageAdapter.cpp VirtualWifiAchieveBase.cpp VirtualWifiErrorMes.cpp VirtualWifiTask.cpp
+         Entry.cpp
+         TASK_THREAD.cpp
+         VirtualPeerHis.cpp
+         VirtualWifiAchieve.cpp
+         VirtualWifiAnalysis.cpp
+         VirtualWifiApp.cpp
+         VirtualWifiBase.cpp
+     1>VirtualWifiBase.cpp(53): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         VirtualWifiCommandIn.cpp
+         VirtualWifiCommandOut.cpp
+         VirtualWifiCommandBase.cpp
+         VirtualWifiCommunication.cpp
+     1>VirtualWifiCommunication.cpp(128): warning C4101: “sz_buffer”: 未引用的局部变量
+         VirtualWifiConst.cpp
+         VirtualConfig.cpp
+         VirtualWifiCore.cpp
+         VirtualWifiCountFlow.cpp
+     1>VirtualWifiCountFlow.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>VirtualWifiCountFlow.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+         VirtualWifiDriver.cpp
+         VirtualWifiExecuteCmd.cpp
+         VirtualWifiFlow.cpp
+     1>VirtualWifiFlow.cpp(58): warning C4244: “初始化”: 从“DOUBLE”转换到“float”，可能丢失数据
+     1>VirtualWifiFlow.cpp(64): warning C4244: “初始化”: 从“DOUBLE”转换到“float”，可能丢失数据
+         VirtualWifiIdentifier.cpp
+     1>VirtualWifiIdentifier.cpp(23): warning C4309: “初始化”: 截断常量值
+         VirtualWifiInit.cpp
+         正在编译...
+         VirtualWifiJudage.cpp
+         VirtualWifiLog.cpp
+         VirtualWifiMac.cpp
+         VirtualWifiMacList.cpp
+         VirtualWifiParse.cpp
+         VirtualWifiPeer.cpp
+         VirtualWifiPeerList.cpp
+         VirtualWifiReg.cpp
+         VirtualWifiRegBase.cpp
+         VirtualWifiService.cpp
+         VirtualWifiSocket.cpp
+     1>VirtualWifiSocket.cpp(170): warning C4101: “sz_speed”: 未引用的局部变量
+         VirtualWifiSocketBase.cpp
+         VirtualWifiConfig.cpp
+         VirtualWifiNetInfo.cpp
+         VirtualWifiNotifyIconInfo.cpp
+         VirtualWifiSoft.cpp
+         VirtualWifiNotifyIcon.cpp
+         VirtualWifiNotifyIconBase.cpp
+         VirtualWifiManageAdapter.cpp
+         VirtualWifiAchieveBase.cpp
+         正在编译...
+         VirtualWifiErrorMes.cpp
+         VirtualWifiTask.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VirtualWifi工程\VirtualWifiCore\Release\VirtualWifiCore.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VirtualWifiCore.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VirtualWifi工程\VirtualWifiCore\Release\VirtualWifiCore.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VirtualWifi工程\VirtualWifiCore\Release\VirtualWifiCore.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\Entry.obj
+         Release\stdafx.obj
+         Release\TASK_THREAD.obj
+         Release\VirtualPeerHis.obj
+         Release\VirtualWifiAchieve.obj
+         Release\VirtualWifiAnalysis.obj
+         Release\VirtualWifiApp.obj
+         Release\VirtualWifiBase.obj
+         Release\VirtualWifiCommandIn.obj
+         Release\VirtualWifiCommandOut.obj
+         Release\VirtualWifiCommandBase.obj
+         Release\VirtualWifiCommunication.obj
+         Release\VirtualWifiConst.obj
+         Release\VirtualConfig.obj
+         Release\VirtualWifiCore.obj
+         Release\VirtualWifiCountFlow.obj
+         Release\VirtualWifiDriver.obj
+         Release\VirtualWifiExecuteCmd.obj
+         Release\VirtualWifiFlow.obj
+         Release\VirtualWifiIdentifier.obj
+         Release\VirtualWifiInit.obj
+         Release\VirtualWifiJudage.obj
+         Release\VirtualWifiLog.obj
+         Release\VirtualWifiMac.obj
+         Release\VirtualWifiMacList.obj
+         Release\VirtualWifiParse.obj
+         Release\VirtualWifiPeer.obj
+         Release\VirtualWifiPeerList.obj
+         Release\VirtualWifiReg.obj
+         Release\VirtualWifiRegBase.obj
+         Release\VirtualWifiService.obj
+         Release\VirtualWifiSocket.obj
+         Release\VirtualWifiSocketBase.obj
+         Release\VirtualWifiConfig.obj
+         Release\VirtualWifiNetInfo.obj
+         Release\VirtualWifiNotifyIconInfo.obj
+         Release\VirtualWifiSoft.obj
+         Release\VirtualWifiNotifyIcon.obj
+         Release\VirtualWifiNotifyIconBase.obj
+         Release\VirtualWifiManageAdapter.obj
+         Release\VirtualWifiAchieveBase.obj
+         Release\VirtualWifiErrorMes.obj
+         Release\VirtualWifiTask.obj
+            正在创建库 D:\VirtualWifi工程\VirtualWifiCore\Release\VirtualWifiCore.lib 和对象 D:\VirtualWifi工程\VirtualWifiCore\Release\VirtualWifiCore.exp
+         正在生成代码
+     1>d:\virtualwifi工程\virtualwificore\virtualwificore\virtualwifiachieve.cpp(104): warning C4715: “VirtualWifiAchieve::intelligent_net_adapters”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         VirtualWifiCore.vcxproj -> D:\VirtualWifi工程\VirtualWifiCore\Release\VirtualWifiCore.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VirtualWifi工程\VirtualWifiCore\Release\VirtualWifiCore.dll;#2" /manifest Release\VirtualWifiCore.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VirtualWifiCore.unsuccessfulbuild”。
+         正在对“Release\VirtualWifiCore.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VirtualWifi工程\VirtualWifiCore\VirtualWifiCore\VirtualWifiCore.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.84

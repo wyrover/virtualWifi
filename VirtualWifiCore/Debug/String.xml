@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root>
+<Warning>
+<WarnString Name="key_too_short">密码长度太短,必须大于8位</WarnString>
+<WarnString Name="not_find_net">未发现共享的网络</WarnString>
+<WarnString Name="start_wifi_fail">启动网络失败</WarnString>
+<WarnString Name="file_parse_error">文件解析错误</WarnString>
+</Warning>
+<error>
+</error>
+</root>

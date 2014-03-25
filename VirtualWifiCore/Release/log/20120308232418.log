@@ -1,0 +1,11 @@
+2012-03-08-23-24-18: come to entry
+2012-03-08-23-24-18: parameters is 
+2012-03-08-23-24-18: Load Configdll success!
+2012-03-08-23-24-18: come to notify_show
+2012-03-08-23-24-18: come to  create_window thread
+2012-03-08-23-24-18: run to create_window
+2012-03-08-23-24-18: come to start_server
+2012-03-08-23-24-18: run to VWN->set_hwnd(hwnd)
+2012-03-08-23-24-18: come to VirtualWifiNotifyIcon::Show()
+2012-03-08-23-24-18: come to create socket thread
+2012-03-08-23-24-18: init socketsuccess!

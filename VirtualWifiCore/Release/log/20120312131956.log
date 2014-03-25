@@ -1,0 +1,71 @@
+2012-03-12-13-19-56: come to entry
+2012-03-12-13-19-56: parameters is 
+2012-03-12-13-19-56: Load Configdll success!
+2012-03-12-13-19-56: come to notify_show
+2012-03-12-13-19-56: come to  create_window thread
+2012-03-12-13-19-56: get guid is {1E56A5A6-6A71-4B36-9CD0-F99D66D9019C}
+2012-03-12-13-19-56: run to create_window
+2012-03-12-13-19-56: come to start_server
+2012-03-12-13-19-56: run to VWN->set_hwnd(hwnd)
+2012-03-12-13-19-56: come to VirtualWifiNotifyIcon::Show()
+2012-03-12-13-19-56: come to create socket thread
+2012-03-12-13-19-56: init socketsuccess!
+2012-03-12-13-19-59: run to socket accept
+2012-03-12-13-19-59: come to VirtualWifiSocket::OnAccept(SOCKET& socket)
+2012-03-12-13-19-59: run to the receive data isMain_Socket
+2012-03-12-13-19-59: check CLIENTTYPE_MAINsuccess!
+2012-03-12-13-19-59: come to VirtualWifiCommunication::OnMainSocketConnection()
+2012-03-12-13-19-59: recv client frist link
+2012-03-12-13-19-59: come to :show_balloon(CONST_STR sz_tip_title,CONST_STR sz_tip_content)
+2012-03-12-13-19-59: come to VirtualWifiCommunication::init_wifi()
+2012-03-12-13-19-59: come to void VirtualWifiCommunication::init_wifi_adapter()
+2012-03-12-13-19-59: run to send_main(CONST_STR) the data is 
+2012-03-12-13-19-59: come to VirtualWifiManageAdapter::GetConnectedAdapterList()
+2012-03-12-13-19-59: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-03-12-13-19-59: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-03-12-13-19-59: pNSM->get_EnumEveryConnection success!
+2012-03-12-13-19-59: InitAdapterList success!
+2012-03-12-13-19-59: the adapter is
+2012-03-12-13-19-59: the adapter is
+2012-03-12-13-19-59: find connected adaptersuccess!
+2012-03-12-13-19-59: the adapter is
+2012-03-12-13-19-59: find connected adaptersuccess!
+2012-03-12-13-19-59: the adapter is
+2012-03-12-13-19-59: find connected adaptersuccess!
+2012-03-12-13-19-59: the adapter is
+2012-03-12-13-19-59: find connected adaptersuccess!
+2012-03-12-13-19-59: run to send_main(list<wstring>) the data is àe¿~QÜ~Þ¥c
+2012-03-12-13-19-59: come to VirtualWifiCommunication::init_wifi_selected_adapter()
+2012-03-12-13-19-59: come to VirtualWifiManageAdapter::IntelligentFindNetAdapter()
+2012-03-12-13-19-59: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-03-12-13-19-59: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-03-12-13-19-59: pNSM->get_EnumEveryConnection success!
+2012-03-12-13-19-59: find the adapter with netsuccess!
+2012-03-12-13-19-59: run to send_main(wstring) the data is C
+2012-03-12-13-19-59: send_main(char*) data is 011111ëýëŒ0taC¯¹À/
+2012-03-12-13-19-59: come to VirtualWifiCommunication::init_wifi_soft()
+2012-03-12-13-19-59: run to send_main(CONST_STR) the data is ÐéÄâÎÞÏßÂ·ÓÉ&V²âÊÔ°æ
+2012-03-12-13-19-59: send back ground
+2012-03-12-13-19-59: send_main(char*) data is Res/back.png
+2012-03-12-13-19-59: come to VirtualWifiCommunication::init_wifi_account()
+2012-03-12-13-19-59: run to init_wifi_account the data is lhb
+2012-03-12-13-19-59: run to send_main(list<CONST_STR>) the data is lhb
+2012-03-12-13-19-59: run to send_main(CONST_STR) the data is 
+2012-03-12-13-19-59: come to VirtualWifiSocketBase::OnAccept(SOCKET& socket)
+2012-03-12-13-20-31: the adapter name is 
+2012-03-12-13-20-31: come to VirtualWifiManageAdapter::UnSharingAdapter(CONST_STR sz_ada
+2012-03-12-13-20-31: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-03-12-13-20-31: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-03-12-13-20-31: pNSM->get_EnumEveryConnection success!
+2012-03-12-13-20-31: InitAdapterList success!
+2012-03-12-13-20-31: run to adapter while
+2012-03-12-13-20-31: come in while the name is
+2012-03-12-13-20-31: run to share the adapter
+2012-03-12-13-20-31: run to adapter while
+2012-03-12-13-20-31: come in while the name is
+2012-03-12-13-20-31: run to adapter while
+2012-03-12-13-20-31: come in while the name is
+2012-03-12-13-20-31: run to adapter while
+2012-03-12-13-20-31: come in while the name is
+2012-03-12-13-20-31: run to adapter while
+2012-03-12-13-20-31: come in while the name is

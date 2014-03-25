@@ -1,0 +1,32 @@
+2012-03-17-13-18-15: come to entry
+2012-03-17-13-18-15: parameters is 
+2012-03-17-13-18-15: Load Configdll success!
+2012-03-17-13-18-15: come to notify_show
+2012-03-17-13-18-15: come to  create_window thread
+2012-03-17-13-18-15: run to create_window
+2012-03-17-13-18-15: get guid is {1E56A5A6-6A71-4B36-9CD0-F99D66D9019C}
+2012-03-17-13-18-15: come to VirtualWifiAchieve::start_wifi(NetInfoEx& netinfoex)
+2012-03-17-13-18-15: start wifi fail
+2012-03-17-13-18-15: the adapter name is 
+2012-03-17-13-18-15: come to VirtualWifiManageAdapter::UnSharingAdapter(CONST_STR sz_ada
+2012-03-17-13-18-15: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-03-17-13-18-15: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-03-17-13-18-16: run to VWN->set_hwnd(hwnd)
+2012-03-17-13-18-16: come to VirtualWifiNotifyIcon::Show()
+2012-03-17-13-18-16: pNSM->get_EnumEveryConnection success!
+2012-03-17-13-18-16: InitAdapterList success!
+2012-03-17-13-18-16: run to adapter while
+2012-03-17-13-18-16: come in while the name is
+2012-03-17-13-18-16: run to share the adapter
+2012-03-17-13-18-16: run to adapter while
+2012-03-17-13-18-16: come in while the name is
+2012-03-17-13-18-16: run to adapter while
+2012-03-17-13-18-16: come in while the name is
+2012-03-17-13-18-16: run to adapter while
+2012-03-17-13-18-16: come in while the name is
+2012-03-17-13-18-16: run to adapter while
+2012-03-17-13-18-16: come in while the name is
+2012-03-17-13-18-16: come to :show_balloon(CONST_STR sz_tip_title,CONST_STR sz_tip_content)
+2012-03-17-13-18-16: come to start_server
+2012-03-17-13-18-16: come to create socket thread
+2012-03-17-13-18-16: init socketsuccess!

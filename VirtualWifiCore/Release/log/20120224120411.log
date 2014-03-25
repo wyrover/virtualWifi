@@ -1,0 +1,41 @@
+2012-02-24-12-04-11: come to entry
+2012-02-24-12-04-11: Load Configdll success!
+2012-02-24-12-04-11: come to create socket thread
+2012-02-24-12-04-11: init socketsuccess!
+2012-02-24-12-04-14: run to socket accept
+2012-02-24-12-04-14: come to VirtualWifiSocket::OnAccept(SOCKET& socket)
+2012-02-24-12-04-15: run to the receive data isMain_Socket
+2012-02-24-12-04-15: check CLIENTTYPE_MAINsuccess!
+2012-02-24-12-04-15: come to VirtualWifiCommunication::OnMainSocketConnection()
+2012-02-24-12-04-15: recv client frist link
+2012-02-24-12-04-15: come to VirtualWifiCommunication::init_wifi()
+2012-02-24-12-04-15: come to VirtualWifiCommunication::init_wifi_soft()
+2012-02-24-12-04-15: run to send_main(CONST_STR) the data is 虚拟无线路由&V测试版
+2012-02-24-12-04-15: send back ground
+2012-02-24-12-04-15: send_main(char*) data is Res/back.png
+2012-02-24-12-04-15: come to VirtualWifiCommunication::init_wifi_account()
+2012-02-24-12-04-15: run to init_wifi_account the data is lhb
+2012-02-24-12-04-15: run to send_main(list<CONST_STR>) the data is lhb
+2012-02-24-12-04-15: come to void VirtualWifiCommunication::init_wifi_adapter()
+2012-02-24-12-04-15: come to  VirtualWifiManageAdapter::GetConnectedAdapterList()
+2012-02-24-12-04-15: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-02-24-12-04-15: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-02-24-12-04-15: pNSM->get_EnumEveryConnection success!
+2012-02-24-12-04-15: InitAdapterList success!
+2012-02-24-12-04-15: the adapter is无线网络连接
+2012-02-24-12-04-15: find connected adaptersuccess!
+2012-02-24-12-04-15: the adapter is本地连接
+2012-02-24-12-04-15: the adapter is宽带连接
+2012-02-24-12-04-15: the adapter isChinaNetSNWide
+2012-02-24-12-04-15: find connected adaptersuccess!
+2012-02-24-12-04-15: run to send_main(list<wstring>) the data is 鄀縹Q軂迯
+2012-02-24-12-04-15: come to VirtualWifiCommunication::init_wifi_selected_adapter()
+2012-02-24-12-04-15: come to VirtualWifiManageAdapter::IntelligentFindNetAdapter()
+2012-02-24-12-04-15: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-02-24-12-04-15: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-02-24-12-04-15: pNSM->get_EnumEveryConnection success!
+2012-02-24-12-04-15: find the adapter with netsuccess!
+2012-02-24-12-04-15: run to send_main(wstring) the data is C
+2012-02-24-12-04-15: send_main(char*) data is 011111
+2012-02-24-12-04-15: run to send_main(CONST_STR) the data is 
+2012-02-24-12-04-15: come to VirtualWifiSocketBase::OnAccept(SOCKET& socket)

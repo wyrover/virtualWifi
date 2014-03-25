@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<root>
+	<Wireless>
+		<CurrentNetInfo SSID="2#620" />
+		<NetInfo SSID="2#620" Key="123456789" Adapter="ChinaNetSNWide" />
+	</Wireless>
+</root>

@@ -1,0 +1,46 @@
+2012-03-17-13-50-32: come to entry
+2012-03-17-13-50-32: parameters is 
+2012-03-17-13-50-32: Load Configdll success!
+2012-03-17-13-50-32: come to notify_show
+2012-03-17-13-50-32: come to  create_window thread
+2012-03-17-13-50-32: run to create_window
+2012-03-17-13-50-32: get guid is {1E56A5A6-6A71-4B36-9CD0-F99D66D9019C}
+2012-03-17-13-50-32: come to start_server
+2012-03-17-13-50-32: run to VWN->set_hwnd(hwnd)
+2012-03-17-13-50-32: come to VirtualWifiNotifyIcon::Show()
+2012-03-17-13-50-32: come to VirtualWifiManageAdapter::IntelligentFindNetAdapter()
+2012-03-17-13-50-32: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-03-17-13-50-32: come to create socket thread
+2012-03-17-13-50-32: init socketsuccess!
+2012-03-17-13-50-32: pNSM->get_EnumEveryConnection success!
+2012-03-17-13-50-32: find the adapter with netsuccess!
+2012-03-17-13-50-32: come to VirtualWifiAchieve::start_wifi(NetInfoEx& netinfoex)
+2012-03-17-13-50-33: come to set_adapter_info
+2012-03-17-13-50-33: the adapter name is ChinaNetSNWide
+2012-03-17-13-50-33: come to VirtualWifiManageAdapter::SetSharingAdapter(CONST_STR sz_ada
+2012-03-17-13-50-33: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-03-17-13-50-33: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-03-17-13-50-33: pNSM->get_EnumEveryConnection success!
+2012-03-17-13-50-33: InitAdapterList success!
+2012-03-17-13-50-33: run to adapter while
+2012-03-17-13-50-33: come in while the name is VMware Network Adapter VMnet8
+2012-03-17-13-50-33: come in while the device name isVMware Virtual Ethernet Adapter for VMnet8
+2012-03-17-13-50-33: run to adapter while
+2012-03-17-13-50-33: come in while the name is 本地连接
+2012-03-17-13-50-33: come in while the device name isJMicron PCI Express Gigabit Ethernet Adapter
+2012-03-17-13-50-33: run to adapter while
+2012-03-17-13-50-33: come in while the name is 无线网络连接
+2012-03-17-13-50-33: come in while the device name isAtheros AR9285 Wireless Network Adapter
+2012-03-17-13-50-33: run to adapter while
+2012-03-17-13-50-33: come in while the name is 无线网络连接 3
+2012-03-17-13-50-33: come in while the device name isMicrosoft Virtual WiFi Miniport Adapter #2
+2012-03-17-13-50-33: run to adapter while
+2012-03-17-13-50-33: come in while the name is VMware Network Adapter VMnet1
+2012-03-17-13-50-33: come in while the device name isVMware Virtual Ethernet Adapter for VMnet1
+2012-03-17-13-50-33: run to adapter while
+2012-03-17-13-50-33: come in while the name is ChinaNetSNWide
+2012-03-17-13-50-33: run to share the adapter
+2012-03-17-13-50-33: come in while the device name isWAN Miniport (PPPOE)
+2012-03-17-13-50-33: start wifi fun
+2012-03-17-13-50-34: send_main(char*) data is 开启 (null) 无线网络成功
+2012-03-17-13-50-34: come to :show_balloon(CONST_STR sz_tip_title,CONST_STR sz_tip_content)

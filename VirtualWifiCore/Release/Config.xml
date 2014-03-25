@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root>
+	<Soft>
+		<Title>虚拟无线路由</Title>
+		<Addr>127.0.0.1</Addr>
+		<Port>1300</Port>
+		<Version>V测试版</Version>
+		<Back>Res/back.png</Back>
+		<Cursor>Res/capture_cursor.cur</Cursor>
+	</Soft>
+	<Config>
+		<StartPath>VirtualWifi.exe</StartPath>
+		<AutoRun value="true">
+			<AutoRunPath>VirtualWifi.exe</AutoRunPath>
+		</AutoRun>
+		<SoundTip value="true">
+			<SoundPath />
+		</SoundTip>
+		<AutoStartWifi value="true" />
+		<ProvinceMemory value="true" />
+		<AutoUpdate value="true" />
+		<EventBalloonTip value="true" />
+		<HasNewClientBalloonTip value="true" />
+	</Config>
+	<NotifyIcon>
+		<NoStart>Res/NoStart.ico</NoStart>
+		<Start>Res/Start.ico</Start>
+	</NotifyIcon>
+</root>

@@ -1,0 +1,74 @@
+2012-02-24-11-24-15: come to entry
+2012-02-24-11-24-15: Load Configdll success!
+2012-02-24-11-24-15: come to create socket thread
+2012-02-24-11-24-15: init socketsuccess!
+2012-02-24-11-24-24: run to socket accept
+2012-02-24-11-24-25: come to VirtualWifiSocket::OnAccept(SOCKET& socket)
+2012-02-24-11-24-25: run to the receive data isMain_Socket
+2012-02-24-11-24-25: check CLIENTTYPE_MAINsuccess!
+2012-02-24-11-24-25: come to VirtualWifiCommunication::OnMainSocketConnection()
+2012-02-24-11-24-25: recv client frist link
+2012-02-24-11-24-25: come to VirtualWifiCommunication::init_wifi()
+2012-02-24-11-24-25: come to VirtualWifiCommunication::init_wifi_soft()
+2012-02-24-11-24-25: run to send_main(CONST_STR) the data is 虚拟无线路由&V测试版
+2012-02-24-11-24-25: send back ground
+2012-02-24-11-24-25: send_main(char*) data is Res/back.png
+2012-02-24-11-24-25: come to VirtualWifiCommunication::init_wifi_account()
+2012-02-24-11-24-25: run to init_wifi_account the data is lhb
+2012-02-24-11-24-25: run to send_main(list<CONST_STR>) the data is lhb
+2012-02-24-11-24-25: come to void VirtualWifiCommunication::init_wifi_adapter()
+2012-02-24-11-24-25: come to  VirtualWifiManageAdapter::GetConnectedAdapterList()
+2012-02-24-11-24-25: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-02-24-11-24-25: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-02-24-11-24-25: pNSM->get_EnumEveryConnection success!
+2012-02-24-11-24-25: InitAdapterList success!
+2012-02-24-11-24-25: the adapter is无线网络连接 2
+2012-02-24-11-24-25: the adapter is无线网络连接
+2012-02-24-11-24-25: find connected adaptersuccess!
+2012-02-24-11-24-25: the adapter is本地连接
+2012-02-24-11-24-25: the adapter is宽带连接
+2012-02-24-11-24-25: the adapter isChinaNetSNWide
+2012-02-24-11-24-25: find connected adaptersuccess!
+2012-02-24-11-24-25: run to send_main(list<wstring>) the data is 鄀縹Q軂迯
+2012-02-24-11-24-25: come to VirtualWifiCommunication::init_wifi_selected_adapter()
+2012-02-24-11-24-25: come to VirtualWifiManageAdapter::IntelligentFindNetAdapter()
+2012-02-24-11-24-25: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-02-24-11-24-25: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-02-24-11-24-25: pNSM->get_EnumEveryConnection success!
+2012-02-24-11-24-25: find the adapter with netsuccess!
+2012-02-24-11-24-25: run to send_main(wstring) the data is C
+2012-02-24-11-24-25: send_main(char*) data is 011111
+2012-02-24-11-24-25: run to send_main(CONST_STR) the data is 
+2012-02-24-11-24-25: come to VirtualWifiSocketBase::OnAccept(SOCKET& socket)
+2012-02-24-11-24-27: recv start wifi command
+2012-02-24-11-24-27: come to VirtualWifiNetInfo::parse_netinfoex(CONST_STR sz_parse_c)
+2012-02-24-11-24-27: parse netinfosuccess!
+2012-02-24-11-24-27: copy netinfosuccess!
+2012-02-24-11-24-27: the adapter name is ChinaNetSNWide
+2012-02-24-11-24-27: come to VirtualWifiAchieve::start_wifi(NetInfoEx& netinfoex)
+2012-02-24-11-24-28: start wifi fun
+2012-02-24-11-24-28: the adapter name is ChinaNetSNWide
+2012-02-24-11-24-28: come to VirtualWifiManageAdapter::SetSharingAdapter(CONST_STR sz_ada
+2012-02-24-11-24-28: come to  VirtualWifiManageAdapter::InitAdapterList()
+2012-02-24-11-24-28: come to VirtualWifiManageAdapter::InitNetSharingManger()
+2012-02-24-11-24-28: pNSM->get_EnumEveryConnection success!
+2012-02-24-11-24-28: InitAdapterList success!
+2012-02-24-11-24-28: run to adapter while
+2012-02-24-11-24-28: come in while the name is无线网络连接 2
+2012-02-24-11-24-28: come in while the device name isMicrosoft Virtual WiFi Miniport Adapter
+2012-02-24-11-24-28: run to adapter while
+2012-02-24-11-24-28: come in while the name is无线网络连接
+2012-02-24-11-24-28: come in while the device name isAtheros AR9285 Wireless Network Adapter
+2012-02-24-11-24-28: run to adapter while
+2012-02-24-11-24-28: come in while the name is本地连接
+2012-02-24-11-24-28: come in while the device name isJMicron PCI Express Gigabit Ethernet Adapter
+2012-02-24-11-24-28: run to adapter while
+2012-02-24-11-24-28: come in while the name is宽带连接
+2012-02-24-11-24-28: come in while the device name isWAN Miniport (PPPOE)
+2012-02-24-11-24-28: run to adapter while
+2012-02-24-11-24-28: come in while the name isChinaNetSNWide
+2012-02-24-11-24-28: run to share the adapter
+2012-02-24-11-24-28: come in while the device name isWAN Miniport (PPPOE)
+2012-02-24-11-24-28: run to send_main(CONST_STR) the data is 开启无线网络成功
+2012-02-24-11-24-46: recv stop wifi command
+2012-02-24-11-24-46: run to send_main(CONST_STR) the data is 

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root>
+	<Wireless>
+		<CurrentNetInfo SSID="lhb" />
+		<NetInfo SSID="CMCC" Key="987654321" />
+		<NetInfo SSID="lhb" Key="z2255611z" />
+	</Wireless>
+</root>
